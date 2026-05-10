@@ -1,0 +1,16 @@
+[package]
+name = "cirious_crdf"
+version = "0.1.0"
+edition = "2021"
+authors = ["Tulio Souza Santos <tuliosouza0803@gmail.com>"]
+description = "A Rust library for working with 3D model data, with a focus on the OBJ file format."
+readme = "README.md"
+repository = "https://github.com/CiberCodes/cirious_crdf"
+license = "MIT"
+keywords = ["three-dimensional", "obj", "parser", "geometry", "mesh"]
+categories = ["graphics", "parser-implementations"]
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
